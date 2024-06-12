@@ -1,0 +1,127 @@
+@font-face {
+  font-family: Comfortaa;
+  src: local('Comfortaa-Regular'),
+    url('../fonts/Comfortaa-Regular.woff2') format(woff2),
+    url('../fonts/Comfortaa-Regular.woff') format(woff);
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: local('HelveticaNeueCyr-Roman'), local('HelveticaNeueCyr Medium'),
+    url('../fonts/HelveticaNeueCyr-Roman.woff2') format(woff2),
+    url('../fonts/HelveticaNeueCyr-Roman.woff') format(woff);
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: local('HelveticaNeueCyr-Medium'),
+    url('../fonts/HelveticaNeueCyr-Medium.woff2') format(woff2),
+    url('../fonts/HelveticaNeueCyr-Medium.woff') format(woff);
+  font-weight: 500;
+  font-display: swap;
+}
+
+:root {
+  position: relative;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'HelveticaNeueCyr', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #282626;
+  background-color: #f2f0f1;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+svg {
+  max-height: 100%;
+}
+
+button {
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+figure,
+fieldset {
+  margin: 0;
+}
+
+iframe {
+  border: none;
+}
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+.container {
+  max-width: 1240px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+ol {
+  margin: 0;
+  list-style-type: none;
+  counter-reset: my-counter;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 1204px;
+}
+
+.section-title {
+  font-family: Comfortaa, sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 60px;
+  color: #282626;
+}

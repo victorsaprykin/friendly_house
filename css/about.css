@@ -1,0 +1,19 @@
+.about {
+  padding-top: 99px;
+}
+
+.about__title {
+  margin-bottom: 28px;
+}
+
+.about__descr {
+  max-width: 468px;
+}
+
+.text:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.about__text {
+  max-width: 4476px;
+}
