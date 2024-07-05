@@ -1,6 +1,7 @@
 .support {
   padding-top: 196px;
   padding-bottom: 100px;
+  display: none;
 }
 
 .support__title {

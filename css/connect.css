@@ -1,6 +1,7 @@
 .connect {
   padding: 167px 0 137px;
   background-color: #fff;
+  display: none;
 }
 
 .connect__title {

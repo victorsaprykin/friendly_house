@@ -1,5 +1,6 @@
 .about {
   padding-top: 99px;
+  display: none;
 }
 
 .about__title {
