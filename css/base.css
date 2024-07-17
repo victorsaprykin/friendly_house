@@ -104,7 +104,7 @@ iframe {
 }
 
 .container {
-  max-width: 1250px;
+  max-width: 1210px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -128,35 +128,16 @@ section {
   color: #282626;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1130px) {
 
 section {
   padding: 38px 0 38px;
 }
 
-.container {
-  max-width: 940px;
-}
+
 
   .section-title {
     margin-bottom: 40px;
     font-size: 44px;
-  }
-}
-@media (max-width: 768px) {
-
-  /* .container {
-    padding: 0 15px;
-  max-width: 710px;
-} */
-
-  .section-title {
-    margin-bottom: 30px;
-    font-size: 30px;
-  }
-}
-@media (max-width: 320px) {
-  .section-title {
-    font-size: 20px;
   }
 }
