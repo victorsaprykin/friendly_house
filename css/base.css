@@ -130,14 +130,33 @@ section {
 
 @media (max-width: 1130px) {
 
-section {
-  padding: 38px 0 38px;
-}
+
 
 
 
   .section-title {
-    margin-bottom: 40px;
+    margin-bottom: 36px;
     font-size: 44px;
   }
+}
+
+@media (max-width: 920px) {
+
+
+
+
+
+  .section-title {
+    margin-bottom: 16px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 540px) {
+  .section-title {
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+
+  
 }
